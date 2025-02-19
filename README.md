@@ -48,6 +48,7 @@ This is a cheat for the mobiel game earn to die, the cheat allows you to get all
 2. Download and install your old Android app
     - At this point, you can download the APK installer file.
     - Copy that app to the same ```Platform Tools``` directory on your computer
+        - An example of a directory would be: ```C:\Android\platform-tools```
     - Run the following command in your terminal/command line window:
       - ```adb install --bypass-low-target-sdk-block FILENAME.apk```
 <p align="center">
