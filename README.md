@@ -16,6 +16,7 @@ This is a cheat for the mobiel game earn to die, the cheat allows you to get all
 ## <ins>Setup</ins>
 
 ### Turn off Google Play Protect:
+Google Play Protect must be turned off because it doesnt allow the older apps in newer devices to be installed. This step is crutial as you wont turn it off, play protect will give an error ```"App not isntalled as app is not compatible with your phone"```
 - Open the ```Google Play Store``` app .
 - At the top right, tap the profile icon.
 - Tap ```Play Protect Settings``` .
