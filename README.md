@@ -15,15 +15,19 @@ This is the modded version of the mobile game Earn to Die, the cheat allows you 
 
 ## <ins>Setup</ins>
 
+**!!!The following steps are required as the version of the game is old and some settings will not allow cheats!!!**
+
 ### Turn off Verify Apps Over USB Setting:
  ``` Verify Apps Over USB ``` must be turned off because it doesnt allow the older apps in newer devices to be installed. This step is crucial as you wont turn it off, you will get an error ```"App not isntalled as app is not compatible with your phone"```
  This error occurs because apps designed for older versions of Android do not have the latest security requirements enforced by Google Play Protect.
 - Open ```Settings```.
 - Go to USB settings .
 - Turn ```Verify Apps Over USB``` on or off.
-- FOTO BURAYA KOYULMALI SETTINGS FOTOSU
-- ```'NOTE!``` "After installation, using the guidelines provided below, if you suspect that the app may contain malicious behavior, immediately go to Play Protect and scan all apps before running the app. If Play Protect doesn’t give you a warning, then the app is safe to run.
-  
+  <p align="center">
+  <img width="300" height="500" src="https://github.com/user-attachments/assets/989665e3-e6f9-4138-9820-7d829599282b">
+</p>
+Note: After installation, using the guidelines provided below, if you suspect that the app may contain malicious behavior, immediately go to Play Protect and scan all apps before running the app. If Play Protect doesn’t give you a warning, then the app is safe to run.
+
 ### Making the app availbale for newer devices:
 1. Enable Developer options on your Android 14 device
     - Open the ```Settings``` app on your phone.
@@ -48,8 +52,8 @@ This is the modded version of the mobile game Earn to Die, the cheat allows you 
       - ```adb devices```
     - You should see a pop-up on your screen asking you to ``allow USB debugging``. Tap the option to allow.
     - Type the ```adb devices``` command again, if necessary, and you should see a list of devices attached to your computer, with one entry for your phone or tablet.
-2. Download and install your old Android app
-    - At this point, you can download the APK installer file.
+2. Download and install the Android app
+    - At this point, you can download the file.
     - Copy that app to the same ```Platform Tools``` directory on your computer
         - An example of a directory would be: ```C:\Android\platform-tools```
     - Run the following command in your terminal/command line window:
